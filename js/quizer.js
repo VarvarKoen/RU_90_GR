@@ -340,28 +340,885 @@ function load(){
 	setup();
 }
 
-// EN songs
+// RU songs
+const ru_1990_gr_icon = [
+	'ru_pop_m',
+	'ru_pop_f',
+	'ru_rock_1',
+	'ru_rock_2',
+	'disco'
+];
 
+const RU_1990_GR_PACK_1 = 1;
+const RU_1990_GR_PACK_2 = 2;
+const RU_1990_GR_PACK_3 = 3;
+const RU_1990_GR_PACK_4 = 4;
+const RU_1990_GR_PACK_5 = 5;
+
+let ru_1990_gr = [
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Руки Вверх',
+			song : 'Малыш',
+			state: ' по Рукам Вверх'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Русский размер',
+			song : 'Юаю',
+			state: ' по Русскому Размеру'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ногу свело',
+			song : 'Московский романс'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Забытый Разговор',
+			song : 'Арабское золото',
+			state: ' по Забытому Разговору'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Стелла',
+			song : 'Позови',
+			state: ' по Стелле'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "A’Studio",
+			song : 'Нелюбимая',
+			state: " по A’Studio"
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Шляпа',
+			state: " по На-на"
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Океан Эльзы',
+			song : 'Коли тебе нема'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "Фристайл",
+			song : 'Кораблик любви',
+			state: " по Фристайл"
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Отпетые мошенники',
+			song : 'Я учусь танцевать'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "Шоколад",
+			song : 'Улыбнись',
+			state: " по Шоколаду"
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "Арамис",
+			song : 'Девочка ждет, мальчик не идет',
+			state: " по Арамису"
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : "Божья Коровка",
+			song : 'Гранитный камушек',
+			state: " по Божьей Коровке"
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Hi-Fi',
+			song : 'Не дано',
+			state: ' по Hi-Fi'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Руки Вверх',
+			song : 'Назови его как меня'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Руки Вверх',
+			song : 'Последний поцелуй',
+			state: ' по Рукам Вверх'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Кар-Мэн',
+			song : 'Париж',
+			state: ' по Кар-Мэн'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Отпетые мошенники',
+			song : 'Девушки бывают разные'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Твой день',
+			song : 'Ху-ан-хэ – жёлтая река'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Отпетые мошенники',
+			song : 'Люби меня, люби'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Турбомода',
+			song : 'Турболюбовь'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Электронный мальчик',
+			song : 'Видеосалон',
+			state: ' по Электронному мальчику'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Hi-Fi',
+			song : 'Беспризорник'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Hi-Fi',
+			song : 'Пионер'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Электронный мальчик',
+			song : 'Дитер Болен Не Курит',
+			state: ' по Электронному мальчику'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Технология',
+			song : 'Странные танцы',
+			state: ' по Технологии'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Технология',
+			song : 'Всё, что ты хочешь',
+			state: ' по Технологии'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Технология',
+			song : 'Полчаса',
+			state: ' по Технологии'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Комиссар',
+			song : 'Дрянь'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Комиссар',
+			song : 'Ты уйдёшь'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Комиссар',
+			song : 'Я тебе объявляю войну'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Белый Орел',
+			song : 'Потому что нельзя быть красивой такой'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Похитительница Сна'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "Стекловата",
+			song : 'Новый год'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Браво',
+			song : 'Девчонка 16 лет'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Браво',
+			song : 'Московский бит'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : 'Браво',
+			song : '20-й век'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Леприконсы',
+			song : 'Хали-гали, паратрупер'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Фактор 2',
+			song : 'Красавица'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Фактор 2',
+			song : 'Шалава'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Дюна',
+			song : 'Привет с большого бодуна'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Мальчишник',
+			song : 'Ночь'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Мальчишник',
+			song : 'Последний раз'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "Фристайл",
+			song : 'Ах, какая женщина...'
+		},
+		{
+			pack : RU_1990_GR_PACK_5,
+			group : "A’Studio",
+			song : 'Солдат любви'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Рок-острова',
+			song : 'Ничего не говори'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Русский размер',
+			song : 'Ангел дня'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Русский размер',
+			song : 'Вот так'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : '140 ударов в минуту',
+			song : 'Тополя'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : '140 ударов в минуту',
+			song : 'Я тебя люблю'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Демо",
+			song : '2000 лет',
+			state: " по Демо"
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Блестящие',
+			song : 'Ча-ча-ча',
+			state: ' по Блестящим'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Балаган Лимитед',
+			song : 'Чё те надо',
+			state: ' по Балагану Лимитед',
+			shorten: 'Балаган LTD'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Блестящие',
+			song : 'Там, только там'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Блестящие',
+			song : 'Цветы'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Стрелки',
+			song : 'Мамочка'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Стрелки',
+			song : 'Ты бросил меня'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'МГК',
+			song : 'Свечи'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Вирус',
+			song : 'Ручки'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Вирус',
+			song : 'Ты меня не ищи'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Неигрушки',
+			song : '100 дней до приказа'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Гости из будущего',
+			song : 'Нелюбовь'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Восток',
+			song : 'Танец жёлтых листьев'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Восток',
+			song : 'Миражи'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Восток',
+			song : 'До встречи'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Ночные Снайперы',
+			song : '31 весна'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Маша и медведи',
+			song : 'Любочка'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Маша и медведи',
+			song : 'Земля'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Маша и медведи',
+			song : 'Рейкьявик'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Кабаре-дуэт «Академия»',
+			song : 'Я обиделась'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Унесённые ветром',
+			song : 'Какао'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Гости из будущего',
+			song : 'Беги от меня'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Лицей',
+			song : "Домашний арест"
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Лицей',
+			song : "Девушка-зима"
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Лицей',
+			song : "Красная помада"
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Кукрыниксы',
+			song : 'Артист'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Кукрыниксы',
+			song : 'Шторм'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Кукрыниксы',
+			song : 'Вера'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ляпис Трубецкой',
+			song : 'Яблони'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ляпис Трубецкой',
+			song : 'В платье белом'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Аквариум',
+			song : 'Поезд в огне'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Аквариум',
+			song : 'Не пей вина, Гертруда'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Аквариум',
+			song : 'Древнерусская тоска'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Агата Кристи',
+			song : 'Секрет'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Агата Кристи',
+			song : 'Опиум для никого'
+		},		
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Сектор Газа',
+			song : '30 лет'		
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Сектор Газа',
+			song : 'Туман'		
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Сектор Газа',
+			song : 'Твой звонок'		
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Би-2',
+			song : 'Варвара'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Би-2',
+			song : 'Серебро'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Би-2',
+			song : 'Счастье'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Алиса',
+			song : 'Путь домой'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Nautilus Pompilius',
+			song : 'Безымянная река'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Nautilus Pompilius',
+			song : 'Крылья'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Nautilus Pompilius',
+			song : 'Зверь'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Алиса',
+			song : 'Небо славян'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Ундервуд',
+			song : 'Гагарин, я вас любила'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Конец Фильма',
+			song : 'Здравствуй, небо в облаках'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мумий Тролль',
+			song : 'Лунные Девицы',
+			state: ' по Мумий Троллю'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Несчастный Случай',
+			song : 'Генералы песчаных карьеров'		
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Несчастный Случай',
+			song : 'Что ты имела в виду'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Танцы Минус',
+			song : 'Иду'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Танцы Минус',
+			song : 'Половинка'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Танцы Минус',
+			song : 'Город'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мегаполис',
+			song : 'Звездочка'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : '7Б',
+			song : 'Молодые ветра'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Сплин',
+			song : 'Линия жизни'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Смысловые Галлюцинации',
+			song : 'Розовые очки'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Смысловые Галлюцинации',
+			song : 'Вечно молодой'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'АукцЫон',
+			song : 'Дорога'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Пикник',
+			song : 'Фиолетово-черный'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Чиж & Co',
+			song : 'О любви'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Чиж & Co',
+			song : 'Фантом'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Пурген',
+			song : 'Философия урбанистического безвремения'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Пурген',
+			song : 'Kristall nacht'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Lumen',
+			song : 'Сид и Нэнси'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Тараканы',
+			song : 'Я смотрю на них'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Крематорий',
+			song : 'Катманду'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Любэ',
+			song : 'Ты неси меня, река'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Любэ',
+			song : 'Там, за туманами'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Любэ',
+			song : 'Позови меня тихо по имени'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Пикник',
+			song : 'Там, на самом краю земли'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Пикник',
+			song : 'Настоящие дни'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Ария',
+			song : 'Возьми мое сердце'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Ария',
+			song : 'Ангельская пыль'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Ария',
+			song : 'Все, что было'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ляпис Трубецкой',
+			song : 'Огоньки'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Леприконсы',
+			song : 'Тополя'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Дюна',
+			song : 'Страна Лимония'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Дюна',
+			song : 'Пулемет'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Агата Кристи',
+			song : 'Чёрная луна'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Bad Balance',
+			song : 'Город джунглей'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Bad Balance',
+			song : 'Дети Сатаны'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Лесоповал',
+			song : 'Столыпинский вагон'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Лесоповал',
+			song : 'Я куплю тебе дом'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Гости из будущего',
+			song : 'Время песок'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Вирус',
+			song : 'Попрошу тебя'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Империя',
+			song : 'Мой сон'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Империя',
+			song : 'Поезд на Ленинград'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Леприконсы',
+			song : 'Лена'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Дискотека Авария',
+			song : 'Пей пиво!'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Кабаре-дуэт «Академия»',
+			song : 'Ту-ту-ту'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Дискотека Авария',
+			song : 'Давай, Авария!'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Кирпичи',
+			song : 'Плюю я'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ногу свело',
+			song : 'Хару мамбуру'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Ногу свело',
+			song : 'Лилипутская любовь'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Земфира',
+			song : 'Ромашки'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Амега',
+			song : 'Новый год (ft Блестящие)'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Амега',
+			song : 'Ноги'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Амега',
+			song : 'Лететь'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Турбомода',
+			song : 'Позови'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Алиса',
+			song : 'Всё это рок-н-ролл'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Соловей-разбойник'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : "ДДТ",
+			song : 'Метель'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Стрелки",
+			song : 'Красавчик'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Кабаре-дуэт «Академия»",
+			song : 'Тома'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "Рок-острова",
+			song : 'Сирень'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Иванушки International',
+			song : 'Малина',
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Белый Орел',
+			song : 'Как упоительны в России вечера'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Bad Balance',
+			song : 'Как сон'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Серьга',
+			song : 'А что нам надо'
+		}
+];
+
+let ru_1990_gr_1 =	ru_1990_gr.filter(item => item.pack == 1);
+let ru_1990_gr_2 =	ru_1990_gr.filter(item => item.pack == 2);
+let ru_1990_gr_3 =	ru_1990_gr.filter(item => item.pack == 3);
+let ru_1990_gr_4 =	ru_1990_gr.filter(item => item.pack == 4);
+let ru_1990_gr_5 =	ru_1990_gr.filter(item => item.pack == 5);
 
 
 let music = [
 	{
-		arr: en_2000_m,
-		lang: 'en',
-		year: '2000',
-		type: 'm',
+		arr: ru_1990_gr,
+		lang: 'ru',
+		year: '1990',
+		type: 'gr',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: ru_1990_gr_1,
+					name: 'RU 1990s Groups: Pop Men',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
+					arr: ru_1990_gr_2,
+					name: 'RU 1990s Groups: Pop Women',
 				},
 				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: ru_1990_gr_3,
+					name: 'RU 1990s Groups: Rock#1',
+				},
+				{
+					arr: ru_1990_gr_4,
+					name: 'RU 1990s Groups: Rock#2',
+				},
+				{
+					arr: ru_1990_gr_5,
+					name: 'RU 1990s Groups: Disco',
 				}
 			]
 	}
@@ -687,15 +1544,15 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	lang = 'ru';
+	year = '1990';
+	artist_type = 'gr';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = ru_1990_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
