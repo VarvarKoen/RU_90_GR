@@ -1183,6 +1183,12 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Серьга',
 			song : 'А что нам надо'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Монгол Шуудан',
+			song : 'Москва',
+			year : 1995
 		}
 ];
 
