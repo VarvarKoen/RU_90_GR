@@ -146,6 +146,7 @@ function toggleGameButton(){
 let lang_letter;
 
 function learn(){
+	hide_navi_icons();
 	if(withoutAnswers){
 		$('.without_answers').show();
 	} else {
@@ -1239,10 +1240,13 @@ let music = [
 let songs_to_map;
 let mapping_result;
 function map_songs(){
+	back = back_to_current_pack;
 	$('.package').hide();
 	$('#mirror').hide();
 	$('#map').hide();
-	$('#mapping').show();
+	$('#package_content').hide();
+	$('#mapping_content').show();
+	toggleLearn();
 	for(var j=0; j < music.length; j++){
 		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
 												music[j].year, music[j].type);
@@ -1424,10 +1428,8 @@ function show_packages(num){
 }
 
 function package_num(num){
-	hide_navi_icons();
 	$('#current_pack').show();
 	$('#current_pack').attr('src', $('#package_' + num).attr('src'));
-	back = back_to_packages;
 	$('.package').hide();
 	setPathsByPack(num);
 	showGroupNames();
@@ -1540,14 +1542,6 @@ function generateSongIds(arr){
 	return arr;
 }
 
-function back_to_packages(){
-	$('#back').hide();
-	$('#current_pack').hide();
-	$('#package_content').hide();
-	toggleLearn();
-	setup();
-}
-
 let back;
 let expressMode = false;
 let generateSongs;
@@ -1559,7 +1553,6 @@ function setup(){
 	lang = 'ru';
 	year = '1990';
 	artist_type = 'gr';
-	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
@@ -1567,4 +1560,29 @@ function setup(){
 	package_names = ru_1990_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
+	useUrlParam();
+}
+
+let pack_num;
+let year_url = 'https://sunquiz.netlify.app/2010';
+
+function useUrlParam() {
+	var url_string = window.location.href; 
+	var url = new URL(url_string);
+	pack_num = url.searchParams.get("pack");
+	if(pack_num){
+		package_num(pack_num);
+	}
+	back = back_to_browser;
+}
+
+function back_to_browser(){
+	window.location.href = year_url;
+}
+
+function back_to_current_pack(){
+	back = back_to_browser;
+	$('#mapping_content').hide();
+	$('#map').show();
+	package_num(pack_num);
 }
