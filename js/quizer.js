@@ -824,19 +824,19 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_3,
 			group : 'Би-2',
 			song : 'Серебро (2000)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Би-2',
 			song : 'Счастье (2000)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Алиса',
 			song : 'Путь домой (2022)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -857,19 +857,19 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_3,
 			group : 'Алиса',
 			song : 'Небо славян (2003)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Ундервуд',
 			song : 'Гагарин, я вас любила (2002)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Конец Фильма',
 			song : 'Здравствуй, небо в облаках (2005)',
-			ignore : true'
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -890,7 +890,7 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Танцы Минус',
 			song : 'Иду (2000)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -911,25 +911,25 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : '7Б',
 			song : 'Молодые ветра (2001)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Сплин',
 			song : 'Линия жизни (2001)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Смысловые Галлюцинации',
 			song : 'Розовые очки (2000)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Смысловые Галлюцинации',
 			song : 'Вечно молодой (2000)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -940,7 +940,7 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пикник',
 			song : 'Фиолетово-черный (2001)',
-			ignore : true'	
+			ignore : true	
 		},		
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -956,13 +956,13 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пурген',
 			song : 'Философия урбанистического безвремения (1997)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пурген',
 			song : 'Kristall nacht (1999)',
-			ignore : true'	
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
