@@ -345,8 +345,8 @@ function load(){
 const ru_1990_gr_icon = [
 	'ru_pop_m',
 	'ru_pop_f',
+	'rap',
 	'ru_rock_1',
-	'ru_rock_2',
 	'disco'
 ];
 
@@ -370,7 +370,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ногу свело',
-			song : 'Московский романс (1997)'
+			song : 'Московский романс (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -553,7 +554,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Леприконсы',
-			song : 'Хали-гали, паратрупер (1999)'
+			song : 'Хали-гали, паратрупер (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -573,12 +575,12 @@ let ru_1990_gr = [
 			song : 'Привет с большого бодуна (1991)'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Мальчишник',
 			song : 'Ночь (1991)'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Мальчишник',
 			song : 'Последний раз (1992)'
 		},
@@ -765,12 +767,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ляпис Трубецкой',
-			song : 'Яблони (1999)'
+			song : 'Яблони (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ляпис Трубецкой',
-			song : 'В платье белом (1998)'
+			song : 'В платье белом (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -781,12 +785,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Аквариум',
-			song : 'Не пей вина, Гертруда (1994)'
+			song : 'Не пей вина, Гертруда (1994)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Аквариум',
-			song : 'Древнерусская тоска (1996)'
+			song : 'Древнерусская тоска (1996)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -797,22 +803,26 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Агата Кристи',
-			song : 'Опиум для никого (1995)'
+			song : 'Опиум для никого (1995)',
+			ignore : true
 		},		
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Сектор Газа',
-			song : '30 лет (1996)'		
+			song : '30 лет (1996)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Сектор Газа',
-			song : 'Туман (1995)'		
+			song : 'Туман (1995)',
+			ignore : true		
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Сектор Газа',
-			song : 'Твой звонок (1993)'		
+			song : 'Твой звонок (1993)',
+			ignore : true		
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -841,17 +851,20 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Nautilus Pompilius',
-			song : 'Безымянная река (1992)'
+			song : 'Безымянная река (1992)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Nautilus Pompilius',
-			song : 'Крылья (1996)'
+			song : 'Крылья (1996)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Nautilus Pompilius',
-			song : 'Зверь (1994)'
+			song : 'Зверь (1994)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -874,7 +887,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Мумий Тролль',
-			song : 'Лунные Девицы (1998)'
+			song : 'Лунные Девицы (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -895,12 +909,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Танцы Минус',
-			song : 'Половинка (1997)'		
+			song : 'Половинка (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Танцы Минус',
-			song : 'Город (1999)'		
+			song : 'Город (1999)'	,
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -997,37 +1013,44 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пикник',
-			song : 'Там, на самом краю земли'
+			song : 'Там, на самом краю земли',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пикник',
-			song : 'Настоящие дни'
+			song : 'Настоящие дни',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Ария',
-			song : 'Возьми мое сердце'
+			song : 'Возьми мое сердце',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Ария',
-			song : 'Ангельская пыль'
+			song : 'Ангельская пыль',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Ария',
-			song : 'Все, что было'
+			song : 'Все, что было',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ляпис Трубецкой',
-			song : 'Огоньки'
+			song : 'Огоньки',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Леприконсы',
-			song : 'Тополя'
+			song : 'Тополя',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1042,15 +1065,16 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Агата Кристи',
-			song : 'Чёрная луна'
+			song : 'Чёрная луна',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
 			song : 'Город джунглей'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
 			song : 'Дети Сатаны'
 		},
@@ -1087,7 +1111,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Леприконсы',
-			song : 'Лена'
+			song : 'Лена',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1112,12 +1137,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ногу свело',
-			song : 'Хару мамбуру'
+			song : 'Хару мамбуру',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Ногу свело',
-			song : 'Лилипутская любовь'
+			song : 'Лилипутская любовь',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1147,7 +1174,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Алиса',
-			song : 'Всё это рок-н-ролл'
+			song : 'Всё это рок-н-ролл',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1157,7 +1185,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : "ДДТ",
-			song : 'Метель'
+			song : 'Метель',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1185,7 +1214,7 @@ let ru_1990_gr = [
 			song : 'Как упоительны в России вечера'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
 			song : 'Как сон'
 		},
@@ -1245,11 +1274,11 @@ let music = [
 				},
 				{
 					arr: ru_1990_gr_3,
-					name: 'RU 1990s Groups: Rock#1',
+					name: 'RU 1990s Groups: Rap',
 				},
 				{
 					arr: ru_1990_gr_4,
-					name: 'RU 1990s Groups: Rock#2',
+					name: 'RU 1990s Groups: Rock',
 				},
 				{
 					arr: ru_1990_gr_5,
