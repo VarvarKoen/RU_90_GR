@@ -577,7 +577,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Мальчишник',
-			song : 'Ночь (1991)'
+			song : 'Ночь (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -1071,12 +1072,12 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
-			song : 'Город джунглей'
+			song : 'Город джунглей (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
-			song : 'Дети Сатаны'
+			song : 'Быки (1994)'
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1130,9 +1131,9 @@ let ru_1990_gr = [
 			song : 'Давай, Авария!'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Кирпичи',
-			song : 'Плюю я'
+			song : 'Плюю я (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -1216,7 +1217,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_3,
 			group : 'Bad Balance',
-			song : 'Как сон'
+			song : 'Как сон',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -1247,6 +1249,36 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пурген',
 			song : 'Колумбарий (1992)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Кирпичи',
+			song : 'Байка (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Кирпичи',
+			song : 'Так надо (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Мальчишник',
+			song : 'Секс без перерыва (1991)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Мальчишник',
+			song : 'Танцы (1992)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Bad Balance',
+			song : 'Светлая музыка (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Рабы лампы',
+			song : 'Это не больно (1998)'
 		}
 ];
 
