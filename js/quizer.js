@@ -984,17 +984,20 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Lumen',
-			song : 'Сид и Нэнси'
+			song : 'Сид и Нэнси',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Тараканы',
-			song : 'Я смотрю на них'
+			song : 'Я смотрю на них',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Крематорий',
-			song : 'Катманду'
+			song : 'Катманду',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1223,7 +1226,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Серьга',
-			song : 'А что нам надо'
+			song : 'А что нам надо (1995)'
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -1251,12 +1254,12 @@ let ru_1990_gr = [
 			song : 'Колумбарий (1992)'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Кирпичи',
 			song : 'Байка (1996)'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Кирпичи',
 			song : 'Так надо (1999)'
 		},
@@ -1279,6 +1282,51 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_3,
 			group : 'Рабы лампы',
 			song : 'Это не больно (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Крематорий',
+			song : '2001 год (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Старый приятель',
+			song : 'Московская любовь (1995)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Старый приятель',
+			song : 'Новый день календаря (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Крематорий',
+			song : 'Яд (1991)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Серьга',
+			song : 'Собачий вальс (1994)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Серьга',
+			song : 'Страна чудес (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Tequilajazzz',
+			song : 'Зимнее солнце (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Tequilajazzz',
+			song : 'Тема прошлого лета (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Tequilajazzz',
+			song : 'Тишина и волшебство (1998)'
 		}
 ];
 
