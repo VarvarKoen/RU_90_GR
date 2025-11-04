@@ -1327,6 +1327,21 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Tequilajazzz',
 			song : 'Тишина и волшебство (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'МФ-3',
+			song : 'Наше Поколение (1993)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'МФ-3',
+			song : 'Тёмная Ночь (1995)'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'МФ-3',
+			song : 'Делай БЭП (1993)'
 		}
 ];
 
