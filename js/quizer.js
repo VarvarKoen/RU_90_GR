@@ -407,7 +407,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Отпетые мошенники',
-			song : 'Я учусь танцевать (1998)'
+			song : 'Я учусь танцевать (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -428,7 +429,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Hi-Fi',
-			song : 'Не дано (1999)'
+			song : 'Не дано (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -459,7 +461,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Отпетые мошенники',
-			song : 'Люби меня, люби (1999)'
+			song : 'Люби меня, люби (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -476,12 +479,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Hi-Fi',
-			song : 'Беспризорник (1999)'
+			song : 'Беспризорник (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Hi-Fi',
-			song : 'Пионер (1999)'
+			song : 'Пионер (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -572,7 +577,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Дюна',
-			song : 'Привет с большого бодуна (1991)'
+			song : 'Привет с большого бодуна (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -894,12 +900,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Несчастный Случай',
-			song : 'Генералы песчаных карьеров (1997)'		
+			song : 'Генералы песчаных карьеров (1997)'	,
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Несчастный Случай',
-			song : 'Что ты имела в виду (1997)'		
+			song : 'Что ты имела в виду (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -1062,12 +1070,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Дюна',
-			song : 'Страна Лимония'
+			song : 'Страна Лимония',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Дюна',
-			song : 'Пулемет'
+			song : 'Пулемет',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -1088,12 +1098,12 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Лесоповал',
-			song : 'Столыпинский вагон'
+			song : 'Столыпинский вагон (1992)'
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Лесоповал',
-			song : 'Я куплю тебе дом'
+			song : 'Я куплю тебе дом (1993)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1124,7 +1134,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Дискотека Авария',
-			song : 'Пей пиво!'
+			song : 'Пей пиво!',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1134,7 +1145,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Дискотека Авария',
-			song : 'Давай, Авария!'
+			song : 'Давай, Авария!',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -1176,7 +1188,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Турбомода',
-			song : 'Позови'
+			song : 'Позови',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -1208,12 +1221,13 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : "Рок-острова",
-			song : 'Сирень'
+			song : 'Сирень (1998)'
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Иванушки International',
 			song : 'Малина',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1425,6 +1439,11 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_4,
 			group : 'Жуки',
 			song : 'Ай-ай-ай (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Лесоповал',
+			song : 'Первый срок (1996)'
 		}
 ];
 
