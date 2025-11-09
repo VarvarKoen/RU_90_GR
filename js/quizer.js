@@ -951,7 +951,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'АукцЫон',
-			song : 'Дорога (1993)'
+			song : 'Дорога (1993)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -962,12 +963,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Чиж & Co',
-			song : 'О любви (1995)'
+			song : 'О любви (1995)',
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Чиж & Co',
-			song : 'Фантом (1996)'
+			song : 'Фантом (1996)',
+			ignore : true	
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -1342,6 +1345,86 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_3,
 			group : 'МФ-3',
 			song : 'Делай БЭП (1993)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : "Божья Коровка",
+			song : 'А у нас, в Америке (1995)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : "Божья Коровка",
+			song : 'Ягодка-Малинка (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Балаган Лимитед',
+			song : 'Тик-так ходики (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Балаган Лимитед',
+			song : 'Крылышки (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Калинов Мост',
+			song : 'Птицей белой (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мегаполис',
+			song : 'Karl-Marx-Stadt (1996)'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мегаполис',
+			song : 'Новые московские Сиртаки (1995)'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мечтать',
+			song : 'Лётчик (1996)'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мечтать',
+			song : 'Тук-тук (1996)'		
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Мечтать',
+			song : 'Вижу сны (1996)'		
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Чиж & Co',
+			song : 'Полонез (1996)'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Чиж & Co',
+			song : 'Мама (1995)'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Чиж & Co',
+			song : 'Поход (1994)'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Жуки',
+			song : 'Птенчик мой (1999)'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Жуки',
+			song : 'Батарейка (1999)'
+		},		
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Жуки',
+			song : 'Ай-ай-ай (1999)'
 		}
 ];
 
