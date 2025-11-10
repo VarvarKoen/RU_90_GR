@@ -360,7 +360,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Руки Вверх',
-			song : 'Малыш (1997)'
+			song : 'Малыш (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -391,7 +392,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : "На-на",
-			song : 'Шляпа (1993)'
+			song : 'Шляпа (1993)',
+			ignore : true
 		},		
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -435,12 +437,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Руки Вверх',
-			song : 'Назови его как меня (1999)'
+			song : 'Назови его как меня (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Руки Вверх',
-			song : 'Последний поцелуй (1997)'
+			song : 'Последний поцелуй (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -532,7 +536,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : "На-на",
-			song : 'Похитительница Сна (1995)'
+			song : 'Похитительница Сна (1995)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1200,7 +1205,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : "На-на",
-			song : 'Соловей-разбойник'
+			song : 'Соловей-разбойник (1991)'
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -1444,6 +1449,16 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : 'Лесоповал',
 			song : 'Первый срок (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Свет в окне (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Крошка (1992)'
 		}
 ];
 
