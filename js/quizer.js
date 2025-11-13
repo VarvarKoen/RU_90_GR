@@ -634,12 +634,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : "Демо",
-			song : '2000 лет (1999)'
+			song : '2000 лет (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Блестящие',
-			song : 'Ча-ча-ча (1998)'
+			song : 'Ча-ча-ча (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -649,12 +651,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Блестящие',
-			song : 'Там, только там (1996)'
+			song : 'Там, только там (1996)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Блестящие',
-			song : 'Цветы (1997)'
+			song : 'Цветы (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -674,22 +678,28 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Вирус',
-			song : 'Ручки (1999)'
+			song : 'Ручки (1999)',
+			ignore : true
+		},
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Вирус',
-			song : 'Ты меня не ищи (1999)'
+			song : 'Ты меня не ищи (1999)',
+			ignore : true
+		},
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Неигрушки',
-			song : '100 дней до приказа (1999)'
+			song : '100 дней до приказа (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Нелюбовь (1999)'
+			song : 'Нелюбовь (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -715,7 +725,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Маша и медведи',
-			song : 'Любочка (1997)'
+			song : 'Любочка (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -726,7 +737,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Маша и медведи',
-			song : 'Рейкьявик (1998)'
+			song : 'Рейкьявик (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -736,12 +748,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Унесённые ветром',
-			song : 'Какао (1997)'
+			song : 'Какао (1997)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Беги от меня (1999)'
+			song : 'Беги от меня (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1113,12 +1127,15 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Время песок'
+			song : 'Время песок',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Вирус',
-			song : 'Попрошу тебя'
+			song : 'Попрошу тебя',
+			ignore : true
+		},
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1173,7 +1190,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Земфира',
-			song : 'Ромашки'
+			song : 'Ромашки',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1216,7 +1234,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : "Стрелки",
-			song : 'Красавчик'
+			song : 'Красавчик',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1459,6 +1478,61 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : "На-на",
 			song : 'Крошка (1992)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'МГК',
+			song : 'Ах, Какие Ты... (1997)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'МГК',
+			song : 'Ещё раз про любовь (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Каролина',
+			song : 'Королева (1997)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Каролина',
+			song : 'Мама, всё окей (1996)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Каролина',
+			song : 'Наш звёздный вечер (1992)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Комбинация',
+			song : 'Встреча на Манежной (1994)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Комбинация',
+			song : 'Московская прописка (1991)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Комбинация',
+			song : 'Какие люди в Голливуде (1994)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Унесённые ветром',
+			song : 'Полтергейст (1998)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Унесённые ветром',
+			song : 'Не Уезжай (1999)'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : 'Унесённые ветром',
+			song : 'Американцы (1999)'
 		}
 ];
 
