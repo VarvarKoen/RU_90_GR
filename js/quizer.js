@@ -681,13 +681,11 @@ let ru_1990_gr = [
 			song : 'Ручки (1999)',
 			ignore : true
 		},
-		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Вирус',
 			song : 'Ты меня не ищи (1999)',
 			ignore : true
-		},
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1136,7 +1134,6 @@ let ru_1990_gr = [
 			song : 'Попрошу тебя',
 			ignore : true
 		},
-		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Империя',
@@ -1527,7 +1524,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Унесённые ветром',
-			song : 'Не Уезжай (1999)'
+			song : 'Не уезжай (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
