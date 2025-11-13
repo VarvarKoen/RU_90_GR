@@ -634,8 +634,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : "Демо",
-			song : '2000 лет (1999)',
-			ignore : true
+			song : '2000 лет (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -678,8 +677,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Вирус',
-			song : 'Ручки (1999)',
-			ignore : true
+			song : 'Ручки (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -696,8 +694,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Нелюбовь (1999)',
-			ignore : true
+			song : 'Нелюбовь (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -746,14 +743,12 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Унесённые ветром',
-			song : 'Какао (1997)',
-			ignore : true
+			song : 'Какао (1997)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Беги от меня (1999)',
-			ignore : true
+			song : 'Беги от меня (1999)'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1125,8 +1120,7 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Гости из будущего',
-			song : 'Время песок',
-			ignore : true
+			song : 'Время песок'
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1529,7 +1523,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'Унесённые ветром',
-			song : 'Американцы (1999)'
+			song : 'Американцы (1999)',
+			ignore : true
 		}
 ];
 
