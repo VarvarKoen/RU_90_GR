@@ -347,7 +347,8 @@ const ru_1990_gr_icon = [
 	'ru_pop_f',
 	'rap',
 	'ru_rock_1',
-	'disco'
+	'disco',
+	'pop'
 ];
 
 const RU_1990_GR_PACK_1 = 1;
@@ -355,6 +356,7 @@ const RU_1990_GR_PACK_2 = 2;
 const RU_1990_GR_PACK_3 = 3;
 const RU_1990_GR_PACK_4 = 4;
 const RU_1990_GR_PACK_5 = 5;
+const RU_1990_GR_PACK_6 = 6;
 
 let ru_1990_gr = [
 		{
@@ -375,12 +377,12 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Забытый Разговор',
 			song : 'Арабское золото (1991)'
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Стелла',
 			song : 'Позови (1994)'
 		},
@@ -419,7 +421,7 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : "Арамис",
 			song : 'Девочка ждет, мальчик не идет (1991)'
 		},
@@ -458,7 +460,7 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Твой день',
 			song : 'Ху-ан-хэ – жёлтая река (1991)'
 		},
@@ -493,7 +495,7 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Электронный мальчик',
 			song : 'Дитер Болен Не Курит (1990)'
 		},
@@ -1110,12 +1112,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Лесоповал',
-			song : 'Столыпинский вагон (1992)'
+			song : 'Столыпинский вагон (1992)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Лесоповал',
-			song : 'Я куплю тебе дом (1993)'
+			song : 'Я куплю тебе дом (1993)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -1261,12 +1265,12 @@ let ru_1990_gr = [
 			song : 'А что нам надо (1995)'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Монгол Шуудан',
 			song : 'Москва (1995)'
 		},
 		{
-			pack : RU_1990_GR_PACK_2,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Мюзикола',
 			song : 'Девочка в платьице белом (1995)'
 		},
@@ -1527,27 +1531,27 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_2,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Карамель',
 			song : 'Шуба-Дуба (1998)'
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Чернила для 5-го класса',
 			song : 'Мама (1994)'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Чугунный скороход',
 			song : 'Быстрая походка (1999)'
 		},
 		{
-			pack : RU_1990_GR_PACK_2,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Шахерезада',
 			song : 'Самурай (1991)'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_6,
 			group : 'Свинцовый Туман',
 			song : 'Я Знаю... (1997)'
 		}
@@ -1599,6 +1603,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1937,6 +1942,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
