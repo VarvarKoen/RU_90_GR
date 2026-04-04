@@ -1573,23 +1573,27 @@ let music = [
 		packs: [
 				{
 					arr: ru_1990_gr_1,
-					name: 'RU 1990s Groups: Pop Men',
+					name: 'RU 1990s Groups: Pop Men'
 				},
 				{
 					arr: ru_1990_gr_2,
-					name: 'RU 1990s Groups: Pop Women',
-				},
-				{
-					arr: ru_1990_gr_3,
-					name: 'RU 1990s Groups: Rap',
-				},
-				{
-					arr: ru_1990_gr_4,
-					name: 'RU 1990s Groups: Rock',
+					name: 'RU 1990s Groups: Pop Women'
 				},
 				{
 					arr: ru_1990_gr_5,
-					name: 'RU 1990s Groups: Disco',
+					name: 'RU 1990s Groups: Disco'
+				},
+				{
+					arr: ru_1990_gr_3,
+					name: 'RU 1990s Groups: Rap'
+				},
+				{
+					arr: ru_1990_gr_4,
+					name: 'RU 1990s Groups: Rock'
+				},
+				{
+					arr: ru_1990_gr_6,
+					name: 'RU 1990s Groups: One Hit Wonders'
 				}
 			]
 	}
