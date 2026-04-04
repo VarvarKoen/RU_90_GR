@@ -387,7 +387,7 @@ let ru_1990_gr = [
 			song : 'Позови (1994)'
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : "A’Studio",
 			song : 'Нелюбимая (1996)'
 		},
@@ -404,7 +404,7 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : "Фристайл",
 			song : 'Кораблик любви (1997)'
 		},
@@ -548,17 +548,19 @@ let ru_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Браво',
-			song : 'Девчонка 16 лет (1991)'
+			song : 'Девчонка 16 лет (1991)',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Браво',
-			song : 'Московский бит (1993)'
+			song : 'Московский бит (1993)',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Браво',
 			song : '20-й век (2001)',
 			ignore : true
@@ -599,12 +601,12 @@ let ru_1990_gr = [
 			song : 'Последний раз (1992)'
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : "Фристайл",
 			song : 'Ах, какая женщина... (1995)'
 		},
 		{
-			pack : RU_1990_GR_PACK_5,
+			pack : RU_1990_GR_PACK_1,
 			group : "A’Studio",
 			song : 'Солдат любви (1994)'
 		},
@@ -1191,7 +1193,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Амега',
-			song : 'Новый год (ft Блестящие)'
+			song : 'Новый год (ft Блестящие)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -1282,12 +1285,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пурген',
-			song : 'Я настоящий человек (1992)'
+			song : 'Я настоящий человек (1992)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Пурген',
-			song : 'Колумбарий (1992)'
+			song : 'Колумбарий (1992)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
