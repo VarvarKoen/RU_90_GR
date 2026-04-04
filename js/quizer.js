@@ -1562,6 +1562,7 @@ let ru_1990_gr_2 =	ru_1990_gr.filter(item => item.pack == 2);
 let ru_1990_gr_3 =	ru_1990_gr.filter(item => item.pack == 3);
 let ru_1990_gr_4 =	ru_1990_gr.filter(item => item.pack == 4);
 let ru_1990_gr_5 =	ru_1990_gr.filter(item => item.pack == 5);
+let ru_1990_gr_6 =	ru_1990_gr.filter(item => item.pack == 6);
 
 
 let music = [
