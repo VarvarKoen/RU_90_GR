@@ -451,7 +451,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Кар-Мэн',
-			song : 'Париж (1990)'
+			song : 'Париж (1990)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -502,27 +503,32 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
-			song : 'Странные танцы (1991)'
+			song : 'Странные танцы (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
-			song : 'Всё, что ты хочешь (1991)'
+			song : 'Всё, что ты хочешь (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
-			song : 'Полчаса (1991)'
+			song : 'Полчаса (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
-			song : 'Дрянь (1998)'
+			song : 'Дрянь (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
-			song : 'Ты уйдёшь (1991)'
+			song : 'Ты уйдёшь (1991)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -1584,10 +1590,6 @@ let music = [
 				{
 					arr: ru_1990_gr_2,
 					name: 'RU 1990s Groups: Pop Women'
-				},
-				{
-					arr: ru_1990_gr_5,
-					name: 'RU 1990s Groups: Disco'
 				},
 				{
 					arr: ru_1990_gr_3,
