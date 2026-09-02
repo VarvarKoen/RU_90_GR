@@ -368,7 +368,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Русский размер',
-			song : 'Юаю (1995)'
+			song : 'Юаю (1995)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_3,
@@ -625,12 +626,14 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Русский размер',
-			song : 'Ангел дня (1999)'
+			song : 'Ангел дня (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
 			group : 'Русский размер',
-			song : 'Вот так (1998)'
+			song : 'Вот так (1998)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
